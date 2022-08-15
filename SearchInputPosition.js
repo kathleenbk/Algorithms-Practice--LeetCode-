@@ -21,6 +21,8 @@
 // nums contains distinct values sorted in ascending order.
 // -104 <= target <= 104
 
+
+// My Solution:
 var searchInsert = function(nums, target) {
     if(nums[nums.length-1] < target) {
         return nums.length;
@@ -39,6 +41,7 @@ var searchInsert = function(nums, target) {
     }
 };
 
+// Tests
 console.log(searchInsert([1,3,5,6], 5));
 console.log(searchInsert([1,3,5,6], 2));
 console.log(searchInsert([1,3,5,6], 7));
